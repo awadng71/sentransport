@@ -1,0 +1,57 @@
+.detail-ligne {
+background-color : #ffffff ;
+border : 2 px solid #0a6e31 ;
+border-radius : 8 px ;
+padding : 20 px ;
+margin-top : 16 px ;
+animation : slideDown 0.3 s ease ;
+}
+@keyframes slideDown {
+from { opacity : 0; transform : translateY ( -10 px ) ; }
+to { opacity : 1; transform : translateY (0) ; }
+}
+.detail-titre {
+color : #0a6e31 ;
+margin : 0 0 8 px 0;
+font-size : 1.2 rem ;
+}
+.detail-info {
+color : #7f8c8d ;
+margin : 0 0 16 px 0;
+font-size : 0.9 rem ;
+}
+.detail-arrets h4 {
+color : #2c3e50 ;
+margin : 0 0 8 px 0;
+}
+.detail-liste {
+list-style : none ;
+padding : 0;
+margin : 0;
+}
+.detail-arret {display : flex ;
+align-items : center ;
+padding : 8 px 0;
+border-bottom : 1 px solid #f0f0f0 ;
+}
+.detail-arrets:last-child {
+border-bottom : none ;
+}
+.arret-numero {
+background-color : #0a6e31 ;
+color : white ;
+width : 28 px ;
+height : 28 px ;
+border-radius : 50%;
+display : flex ;
+align-items : center ;
+justify-content : center ;
+font-size : 0.8 rem ;
+font-weight : bold ;
+margin-right : 12 px ;
+flex-shrink : 0;
+}
+.arret-nom {
+color : #2c3e50 ;
+font-size : 0.95 rem ;
+}

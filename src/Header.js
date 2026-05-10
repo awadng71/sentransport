@@ -1,7 +1,7 @@
 import './Header.css';
 
 function Header() {
-
+  const todaydate = new Date().toLocaleDateString('fr-FR');
   return (
     
     <header className="header">
@@ -9,6 +9,7 @@ function Header() {
       <p className="header-soustitre">
         Votre guide du transport en commun à Dakar
       </p>
+      <p>{todaydate}</p>
       
     </header>
   );
