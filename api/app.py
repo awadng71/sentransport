@@ -30,13 +30,12 @@ def get_ligne(ligne_id):
         return jsonify({"erreur": "Ligne non trouvee"}), 404
     return jsonify(ligne)
 
+with open("arrets.json", "r") as f:
+    arrets = json.load(f)
+
 @app.route("/arrets")
 def get_arrets():
-    totalarrets = set()
-    for ligne in lignes:
-        for arret in ligne["listeArrets"]:
-            totalarrets.add(arret)
-    return jsonify(list(totalarrets))
+    return jsonify(arrets)
 
 @app.route("/stats")
 def get_stats():

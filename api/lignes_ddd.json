@@ -28,5 +28,14 @@
     "depart": "Yoff", 
     "arrivee": "Sandaga", 
     "arrets": 11,
-      "listeArrets": ["Yoff Village", "Aeroport LSS", "Parcelles U17", "Grand Yoff", "HLM", "Sandaga"] }
+      "listeArrets": ["Yoff Village", "Aeroport LSS", "Parcelles U17", "Grand Yoff", "HLM", "Sandaga"] },
+    { "id": 21, "numero": "34",
+    "depart": "Nord Foire",
+    "arrivee": "Rufisque",
+    "listeArrets": ["VDN", "Liberte 6", "Colobane", "Plateau", "Bargny","Rufisque"]},
+{ "id": 56,
+    "numero": "19",
+    "depart": "Ouakam",
+    "arrivee": "Malika",
+    "listeArrets": ["Ouakam", "Foire", "Camberene", "Dior", "Medina", "Malika"]}
   ]
